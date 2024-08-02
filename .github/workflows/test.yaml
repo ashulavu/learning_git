@@ -1,0 +1,7 @@
+name: Test
+on: [push]
+jobs:
+    runs-on: ubuntu-latest
+    steps: 
+    - run: echo "this is the build job"
+
